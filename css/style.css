@@ -20,12 +20,21 @@ img{
 
 .discount{
     background-color: red;
-    padding: 0.2rem;
+    left: 0;
+}
+
+.tag{
+    padding: 0.4rem;
+    color: white;
+    font-size: 1.1rem;
+    font-weight: 500;
+    position: absolute;
+    bottom: 5rem;
 }
 
 .quality{
     background-color: green;
-    padding: 0.2rem;
+    left: 3.5rem;
 }
 
 /* temporary */
