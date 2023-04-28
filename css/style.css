@@ -145,6 +145,10 @@ img:hover{
     content: url(../img/5b.webp);
 }
 
+#pic6:hover{
+    content: url(../img/6b.webp);
+}
+
 /* footer */
 footer{
     font-size: 1.1rem;
