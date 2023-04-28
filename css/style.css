@@ -6,7 +6,7 @@
 }
 
 .container{
-    width: 1200px;
+    width: 1600px;
     margin: 0 auto;
 }
 
@@ -38,29 +38,15 @@ img{
 
 }
 
-.column{
-    min-width: 100px;
-    min-height: 800px;
-    background-color: yellow;
-}
-
-.card{
-    min-width: 370px;
-    min-height: 500px;
-    background-color:coral
-}
-
-.description{
-    min-width: 40px;
-    min-height: 40px;
-    background-color: aquamarine;
-}
-
 /* main */
-.column{
-    flex-basis: calc(100% / 3 - 2rem);
+.showroom{
     gap: 1rem;
     flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.column{
+    flex-basis: calc(100% / 3 - 2rem);
     padding-top: 3rem;
 }
 
@@ -68,12 +54,25 @@ img{
     position: relative;
 }
 
-.description{
+.info{
     width: 100%;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+}
+
+.item{
+    text-transform: uppercase;
+    font-weight: 600 ;
+}
+
+.price ::after{
+    content: "/f153";
+}
+
+.disc{
+    color: red;
+}
+
+.prev{
+    text-decoration: line-through;
 }
 
 .favourite{
@@ -83,4 +82,17 @@ img{
     top: 5px;
     right: 0;
     padding: 0.2rem;
+}
+
+/* hover */
+img:hover{
+    cursor: pointer;
+}
+
+.favourite:hover{
+    color: red;
+}
+
+#pic1:hover{
+    content: url(../img/1b.webp);
 }
