@@ -67,6 +67,10 @@ img{
     width: 100%;
 }
 
+.brand{
+    text-transform: capitalize;
+}
+
 .item{
     text-transform: uppercase;
     font-weight: 600 ;
@@ -104,4 +108,16 @@ img:hover{
 
 #pic1:hover{
     content: url(../img/1b.webp);
+}
+
+#pic2:hover{
+    content: url(../img/2b.webp);
+}
+
+#pic3:hover{
+    content: url(../img/3b.webp);
+}
+
+#pic4:hover{
+    content: url(../img/4b.webp);
 }
