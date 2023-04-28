@@ -14,3 +14,71 @@ img{
     display: block;
     max-width: 100%;
 }
+.flex{
+    display: flex;
+}
+
+.discount{
+    background-color: red;
+    padding: 0.2rem;
+}
+
+.quality{
+    background-color: green;
+    padding: 0.2rem;
+}
+
+/* temporary */
+.border{
+    border: 2px dashed black;
+}
+
+.container{
+    height: 10000px;
+}
+
+.column{
+    min-width: 100px;
+    min-height: 800px;
+    justify-content: center;
+    align-items: center;
+    background-color: yellow;
+}
+
+.card{
+    min-width: 370px;
+    min-height: 500px;
+    background-color:coral
+}
+
+.description{
+    min-width: 40px;
+    min-height: 40px;
+    background-color: aquamarine;
+}
+
+/* main */
+.column{
+    flex-basis: calc(100% / 3 - 2rem);
+    gap: 1rem;
+    flex-wrap: wrap;
+    padding-top: 3rem;
+}
+
+.card{
+    position: relative;
+}
+
+.description{
+    width: 100%;
+    align-self: flex-end;
+}
+
+.favourite{
+    background-color: white;
+    font-size: 2rem;
+    position: absolute;
+    top: 5px;
+    right: 0;
+    padding: 0.2rem;
+}
