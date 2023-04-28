@@ -35,13 +35,12 @@ img{
 
 .container{
     height: 10000px;
+
 }
 
 .column{
     min-width: 100px;
     min-height: 800px;
-    justify-content: center;
-    align-items: center;
     background-color: yellow;
 }
 
@@ -71,7 +70,10 @@ img{
 
 .description{
     width: 100%;
-    align-self: flex-end;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }
 
 .favourite{
